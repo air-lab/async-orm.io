@@ -1,0 +1,12 @@
+{
+    "name": "air-lab/orm",
+    "description": "Simple and fast ORM for MySQL / MariaDB",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Yan Zhabin",
+            "email": "iyanello@gmail.com"
+        }
+    ],
+    "require": {}
+}
