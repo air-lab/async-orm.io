@@ -8,7 +8,7 @@ Simple and fast ORM library for MySQL / MariaDB (v0.1)
 
 `$ composer reqiure "air-lab/orm"`
 
-`$ composer install`
+`$ composer install -o`
 
 ### #1 - You need to connect to MySQL/MariaDB database
 
