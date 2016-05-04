@@ -4,6 +4,10 @@ namespace Air\Database;
 use Air\Container;
 use Air\Exceptions\ConnectionException;
 
+/**
+ * Class ConnectionResolver
+ * @package Air\Database
+ */
 abstract class ConnectionResolver
 {
     protected static $db;

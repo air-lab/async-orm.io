@@ -7,6 +7,12 @@ namespace Air\Exceptions;
  */
 class NotFoundException extends \RuntimeException
 {
+    /**
+     * NotFoundException constructor.
+     * @param string $message
+     * @param int $code
+     * @param \Exception|null $previous
+     */
     public function __construct($message, $code, \Exception $previous = null)
     {
         parent::__construct($message, $code, $previous = null);
@@ -20,6 +26,12 @@ class NotFoundException extends \RuntimeException
  */
 class QuerySyntaxErrorException extends \RuntimeException
 {
+    /**
+     * QuerySyntaxErrorException constructor.
+     * @param string $message
+     * @param int $code
+     * @param \Exception|null $previous
+     */
     public function __construct($message, $code, \Exception $previous = null)
     {
         parent::__construct($message, $code, $previous = null);
@@ -32,6 +44,12 @@ class QuerySyntaxErrorException extends \RuntimeException
  */
 class ConnectionException extends \RuntimeException
 {
+    /**
+     * ConnectionException constructor.
+     * @param string $message
+     * @param int $code
+     * @param \Exception|null $previous
+     */
     public function __construct($message, $code, \Exception $previous = null)
     {
         parent::__construct($message, $code, $previous = null);
