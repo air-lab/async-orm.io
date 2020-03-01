@@ -1,2 +1,2 @@
 # orm
-Simple and fast ORM for MySQL / MariaDB
+Simple and fast asyncrounus python ORM for PostgreSQL
